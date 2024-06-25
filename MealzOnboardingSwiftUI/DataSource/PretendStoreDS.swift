@@ -8,10 +8,8 @@
 import Foundation
 
 class PretendStoreDS {
-    private let baseURL = URL(string: "https://api.miam.tech/api/v1/")!
-
     func fetchStores(completion: @escaping (Result<APIResponseStore, Error>) -> Void) {
-        var components = URLComponents(url: baseURL.appendingPathComponent("point-of-sales"), resolvingAgainstBaseURL: false)
+        var components = URLComponents(url: BASE_URL.appendingPathComponent("point-of-sales"), resolvingAgainstBaseURL: false)
         components?.queryItems = [
             URLQueryItem(name: "filter[supplier-id]", value: String(SUPPLIERID))
         ]

@@ -14,8 +14,15 @@ class PretendProductRepository {
         self.dataSource = dataSource
     }
 
-    func getProducts(completion: @escaping (Result<[PretendProduct], Error>) -> Void) {
-        dataSource.fetchProducts(ingredientId: "1", searchText: nil) { result in
+    func getProducts(
+        currentStore: PretendStore,
+        completion: @escaping (Result<[PretendProduct], Error>) -> Void
+    ) {
+        dataSource.fetchProducts(
+            currentPOS: currentStore.id,
+            ingredientId: "1",
+            searchText: nil
+        ) { result in
             switch result {
             case .success(let apiResponse):
                 let stores = apiResponse.data.map {
@@ -34,8 +41,16 @@ class PretendProductRepository {
         }
     }
     
-    func searchProducts(searchText: String, completion: @escaping (Result<[PretendProduct], Error>) -> Void) {
-        dataSource.fetchProducts(ingredientId: nil, searchText: searchText) { result in
+    func searchProducts(
+        currentStore: PretendStore,
+        searchText: String,
+        completion: @escaping (Result<[PretendProduct], Error>) -> Void
+    ) {
+        dataSource.fetchProducts(
+            currentPOS: currentStore.id,
+            ingredientId: nil,
+            searchText: searchText
+        ) { result in
             switch result {
             case .success(let apiResponse):
                 let stores = apiResponse.data.map {

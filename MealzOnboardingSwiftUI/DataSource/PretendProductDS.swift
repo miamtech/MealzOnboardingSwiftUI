@@ -8,17 +8,16 @@
 import Foundation
 
 class PretendProductDS {
-    private let baseURL = URL(string: "https://api.miam.tech/api/v1/")!
-
-    func fetchProducts(ingredientId: String?, searchText: String?, completion: @escaping (Result<APIResponseProduct, Error>) -> Void) {
-        var components = URLComponents(url: baseURL.appendingPathComponent("items"), resolvingAgainstBaseURL: false)
+    func fetchProducts(currentPOS: String, ingredientId: String?, searchText: String?, completion: @escaping (Result<APIResponseProduct, Error>) -> Void) {
+        var components = URLComponents(url: BASE_URL.appendingPathComponent("items"), resolvingAgainstBaseURL: false)
         components?.queryItems = [
-            URLQueryItem(name: "point_of_sale_id", value: "453")
+            URLQueryItem(name: "point_of_sale_id", value: currentPOS)
         ]
         if ingredientId != nil {
             components?.queryItems?.append(URLQueryItem(name: "search", value: ingredientId))
         }
         if searchText != nil {
+            components?.path.append("/search")
             components?.queryItems?.append(URLQueryItem(name: "name", value: searchText))
         }
         
