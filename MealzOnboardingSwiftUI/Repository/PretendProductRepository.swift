@@ -20,7 +20,6 @@ class PretendProductRepository {
     ) {
         dataSource.fetchProducts(
             currentPOS: currentStore.id,
-            ingredientId: "1",
             searchText: nil
         ) { result in
             switch result {
@@ -49,7 +48,6 @@ class PretendProductRepository {
     ) {
         dataSource.fetchProducts(
             currentPOS: currentStore.id,
-            ingredientId: nil,
             searchText: searchText
         ) { result in
             switch result {

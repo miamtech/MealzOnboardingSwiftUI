@@ -8,11 +8,6 @@
 import Foundation
 
 class PretendBasket: ObservableObject {
-    static let shared = PretendBasket(
-        items: [
-//            PretendProduct(id: "970417", name: "Beurre doux U, 125", quantity: 1, price: 2.12, identifier: "id_970417", imageUrl: "https://www.coursesu.com/dw/image/v2/BBQX_PRD/on/demandware.static/-/Sites-digitalu-master-catalog/default/dwec5f37b0/3256224252139_A_970417_S01.png?sw=388&sh=388&sm=fit"),
-//            PretendProduct(id: "42851844", name: "Curry tradition en poudre DUCROS, 53g", quantity: 1, price: 3.40, identifier: "id_6511680", imageUrl: "https://mccormick.widen.net/content/vgtrna5yxy/original/3166291744645_curry_saveur_brute.png")
-        ])
     @Published var items = [PretendProduct]()
 
     init(items: [PretendProduct]) {
@@ -49,5 +44,18 @@ class PretendBasket: ObservableObject {
 
     func removeAll() {
         items.removeAll()
+    }
+    
+    func totalPrice() -> Double {
+        return items.reduce(0) { $0 + ($1.price ?? 0) * Double($1.quantity) }
+    }
+    
+    func totalPriceFormatted(currencyCode: String = "EUR") -> String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.currencyCode = currencyCode
+        formatter.maximumFractionDigits = 2
+        
+        return formatter.string(from: NSNumber(value: totalPrice())) ?? "\(currencyCode) 0.00"
     }
 }

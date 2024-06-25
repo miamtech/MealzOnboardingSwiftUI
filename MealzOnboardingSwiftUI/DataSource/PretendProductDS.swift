@@ -8,17 +8,16 @@
 import Foundation
 
 class PretendProductDS {
-    func fetchProducts(currentPOS: String, ingredientId: String?, searchText: String?, completion: @escaping (Result<APIResponseProduct, Error>) -> Void) {
+    func fetchProducts(currentPOS: String, searchText: String?, completion: @escaping (Result<APIResponseProduct, Error>) -> Void) {
         var components = URLComponents(url: BASE_URL.appendingPathComponent("items"), resolvingAgainstBaseURL: false)
+        components?.path.append("/search")
         components?.queryItems = [
-            URLQueryItem(name: "point_of_sale_id", value: currentPOS)
+            URLQueryItem(name: "point_of_sale_id", value: currentPOS),
         ]
-        if ingredientId != nil {
-            components?.queryItems?.append(URLQueryItem(name: "search", value: ingredientId))
-        }
         if searchText != nil {
-            components?.path.append("/search")
             components?.queryItems?.append(URLQueryItem(name: "name", value: searchText))
+        } else {
+            components?.queryItems?.append(URLQueryItem(name: "name", value: "creme"))
         }
         
         guard let productsURL = components?.url else {

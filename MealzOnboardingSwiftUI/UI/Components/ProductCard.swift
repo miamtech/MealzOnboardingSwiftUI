@@ -17,6 +17,13 @@ struct ProductCard: View {
         self.updateQuantity = updateQuantity
         _productQuantity = State(initialValue: product.quantity)
     }
+    
+    func updateProductQuantity() {
+        if let basketProduct = basket.items.first(where: { $0.id == product.id }) {
+            productQuantity = basketProduct.quantity
+        } else { productQuantity = 0 }
+    }
+    
     var body: some View {
         HStack {
             if let pictureURL = URL(string: product.imageUrl ?? "") {
@@ -41,11 +48,8 @@ struct ProductCard: View {
         .frame(maxWidth: .infinity)
         .padding()
         .background(productQuantity > 0 ? Color.green : Color.clear)
-        .onAppear {
-            if let basketProduct = basket.items.first(where: { $0.id == product.id }) {
-                productQuantity = basketProduct.quantity
-            } else { productQuantity = 0 }
-        }
+        .onChange(of: basket.items, updateProductQuantity)
+        .onAppear(perform: updateProductQuantity)
     }
     
     struct ChangeQuantityButton: View {

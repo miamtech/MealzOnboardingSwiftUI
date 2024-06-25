@@ -14,6 +14,7 @@ struct ProductSearchView: View {
     var body: some View {
         if let currentStore = userSession.selectedStore {
             SearchAndResults(currentStore: currentStore)
+                .environmentObject(basket)
         } else {
             StoreSelectorView()
         }
