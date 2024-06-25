@@ -6,3 +6,25 @@
 //
 
 import Foundation
+
+public class PretendUser: Identifiable, Codable, Hashable {
+    public var id: String
+    public var username: String
+    public var email: String
+    public var password: String
+    
+    init(id: String, username: String, email: String, password: String) {
+        self.id = id
+        self.username = username
+        self.email = email
+        self.password = password
+    }
+    
+    public static func == (lhs: PretendUser, rhs: PretendUser) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+}

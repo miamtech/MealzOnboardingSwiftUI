@@ -6,3 +6,5 @@
 //
 
 import Foundation
+
+let SUPPLIERID = 8

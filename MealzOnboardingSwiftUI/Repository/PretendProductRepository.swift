@@ -6,3 +6,51 @@
 //
 
 import Foundation
+
+class PretendProductRepository {
+    private let dataSource: PretendProductDS
+
+    init(dataSource: PretendProductDS = PretendProductDS()) {
+        self.dataSource = dataSource
+    }
+
+    func getProducts(completion: @escaping (Result<[PretendProduct], Error>) -> Void) {
+        dataSource.fetchProducts(ingredientId: "1", searchText: nil) { result in
+            switch result {
+            case .success(let apiResponse):
+                let stores = apiResponse.data.map {
+                    PretendProduct(
+                        id: $0.id,
+                        name: $0.attributes.name,
+                        quantity: 0,
+                        price: Double($0.attributes.unitPrice),
+                        imageUrl: $0.attributes.image
+                    )
+                }
+                completion(.success(stores))
+            case .failure(let error):
+                completion(.failure(error))
+            }
+        }
+    }
+    
+    func searchProducts(searchText: String, completion: @escaping (Result<[PretendProduct], Error>) -> Void) {
+        dataSource.fetchProducts(ingredientId: nil, searchText: searchText) { result in
+            switch result {
+            case .success(let apiResponse):
+                let stores = apiResponse.data.map {
+                    PretendProduct(
+                        id: $0.id,
+                        name: $0.attributes.name,
+                        quantity: 0,
+                        price: Double($0.attributes.unitPrice),
+                        imageUrl: $0.attributes.image
+                    )
+                }
+                completion(.success(stores))
+            case .failure(let error):
+                completion(.failure(error))
+            }
+        }
+    }
+}

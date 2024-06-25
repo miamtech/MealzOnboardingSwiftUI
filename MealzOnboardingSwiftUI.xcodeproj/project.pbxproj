@@ -11,6 +11,15 @@
 		26AEFFDC2C2AB44400367DA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFDB2C2AB44400367DA6 /* ContentView.swift */; };
 		26AEFFDE2C2AB44500367DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AEFFDD2C2AB44500367DA6 /* Assets.xcassets */; };
 		26AEFFE12C2AB44500367DA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AEFFE02C2AB44500367DA6 /* Preview Assets.xcassets */; };
+		26AEFFEA2C2AB4AF00367DA6 /* PretendProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFE92C2AB4AF00367DA6 /* PretendProduct.swift */; };
+		26AEFFEC2C2AB4BA00367DA6 /* PretendBasket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFEB2C2AB4BA00367DA6 /* PretendBasket.swift */; };
+		26AEFFEE2C2AB5CF00367DA6 /* PretendStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFED2C2AB5CF00367DA6 /* PretendStore.swift */; };
+		26AEFFF02C2AB64A00367DA6 /* PretendUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFEF2C2AB64A00367DA6 /* PretendUser.swift */; };
+		26AEFFF32C2AB6D000367DA6 /* PretendProductDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFF22C2AB6D000367DA6 /* PretendProductDS.swift */; };
+		26AEFFF52C2ABAF400367DA6 /* PretendStoreDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFF42C2ABAF400367DA6 /* PretendStoreDS.swift */; };
+		26AEFFF82C2ABCCC00367DA6 /* PretendStoreRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFF72C2ABCCC00367DA6 /* PretendStoreRepository.swift */; };
+		26AEFFFB2C2ABE4B00367DA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFFA2C2ABE4B00367DA6 /* Constants.swift */; };
+		26AEFFFD2C2ABF6200367DA6 /* PretendProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFFC2C2ABF6200367DA6 /* PretendProductRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		26AEFFDB2C2AB44400367DA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		26AEFFDD2C2AB44500367DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26AEFFE02C2AB44500367DA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26AEFFE92C2AB4AF00367DA6 /* PretendProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendProduct.swift; sourceTree = "<group>"; };
+		26AEFFEB2C2AB4BA00367DA6 /* PretendBasket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendBasket.swift; sourceTree = "<group>"; };
+		26AEFFED2C2AB5CF00367DA6 /* PretendStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendStore.swift; sourceTree = "<group>"; };
+		26AEFFEF2C2AB64A00367DA6 /* PretendUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendUser.swift; sourceTree = "<group>"; };
+		26AEFFF22C2AB6D000367DA6 /* PretendProductDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendProductDS.swift; sourceTree = "<group>"; };
+		26AEFFF42C2ABAF400367DA6 /* PretendStoreDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendStoreDS.swift; sourceTree = "<group>"; };
+		26AEFFF72C2ABCCC00367DA6 /* PretendStoreRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendStoreRepository.swift; sourceTree = "<group>"; };
+		26AEFFFA2C2ABE4B00367DA6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		26AEFFFC2C2ABF6200367DA6 /* PretendProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendProductRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,10 @@
 		26AEFFD82C2AB44400367DA6 /* MealzOnboardingSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				26AEFFF92C2ABE4200367DA6 /* Utils */,
+				26AEFFF62C2ABCB900367DA6 /* Repository */,
+				26AEFFF12C2AB69300367DA6 /* DataSource */,
+				26AEFFE72C2AB44F00367DA6 /* Model */,
 				26AEFFD92C2AB44400367DA6 /* MealzOnboardingSwiftUIApp.swift */,
 				26AEFFDB2C2AB44400367DA6 /* ContentView.swift */,
 				26AEFFDD2C2AB44500367DA6 /* Assets.xcassets */,
@@ -65,6 +87,43 @@
 				26AEFFE02C2AB44500367DA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26AEFFE72C2AB44F00367DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26AEFFE92C2AB4AF00367DA6 /* PretendProduct.swift */,
+				26AEFFEB2C2AB4BA00367DA6 /* PretendBasket.swift */,
+				26AEFFED2C2AB5CF00367DA6 /* PretendStore.swift */,
+				26AEFFEF2C2AB64A00367DA6 /* PretendUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26AEFFF12C2AB69300367DA6 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				26AEFFF22C2AB6D000367DA6 /* PretendProductDS.swift */,
+				26AEFFF42C2ABAF400367DA6 /* PretendStoreDS.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		26AEFFF62C2ABCB900367DA6 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				26AEFFF72C2ABCCC00367DA6 /* PretendStoreRepository.swift */,
+				26AEFFFC2C2ABF6200367DA6 /* PretendProductRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		26AEFFF92C2ABE4200367DA6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				26AEFFFA2C2ABE4B00367DA6 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AEFFDC2C2AB44400367DA6 /* ContentView.swift in Sources */,
+				26AEFFF32C2AB6D000367DA6 /* PretendProductDS.swift in Sources */,
+				26AEFFFB2C2ABE4B00367DA6 /* Constants.swift in Sources */,
+				26AEFFF02C2AB64A00367DA6 /* PretendUser.swift in Sources */,
 				26AEFFDA2C2AB44400367DA6 /* MealzOnboardingSwiftUIApp.swift in Sources */,
+				26AEFFEC2C2AB4BA00367DA6 /* PretendBasket.swift in Sources */,
+				26AEFFFD2C2ABF6200367DA6 /* PretendProductRepository.swift in Sources */,
+				26AEFFF82C2ABCCC00367DA6 /* PretendStoreRepository.swift in Sources */,
+				26AEFFF52C2ABAF400367DA6 /* PretendStoreDS.swift in Sources */,
+				26AEFFEE2C2AB5CF00367DA6 /* PretendStore.swift in Sources */,
+				26AEFFEA2C2AB4AF00367DA6 /* PretendProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
