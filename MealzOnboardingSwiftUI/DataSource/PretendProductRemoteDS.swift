@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PretendProductDS {
+class PretendProductRemoteDS {
     func fetchProducts(currentPOS: String, searchText: String?, completion: @escaping (Result<APIResponseProduct, Error>) -> Void) {
         var components = URLComponents(url: BASE_URL.appendingPathComponent("items"), resolvingAgainstBaseURL: false)
         components?.path.append("/search")

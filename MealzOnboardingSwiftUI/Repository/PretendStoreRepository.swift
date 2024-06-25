@@ -8,9 +8,9 @@
 import Foundation
 
 class PretendStoreRepository {
-    private let dataSource: PretendStoreDS
+    private let dataSource: PretendStoreRemoteDS
 
-    init(dataSource: PretendStoreDS = PretendStoreDS()) {
+    init(dataSource: PretendStoreRemoteDS = PretendStoreRemoteDS()) {
         self.dataSource = dataSource
     }
 

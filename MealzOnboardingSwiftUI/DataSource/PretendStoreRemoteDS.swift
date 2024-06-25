@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PretendStoreDS {
+class PretendStoreRemoteDS {
     func fetchStores(completion: @escaping (Result<APIResponseStore, Error>) -> Void) {
         var components = URLComponents(url: BASE_URL.appendingPathComponent("point-of-sales"), resolvingAgainstBaseURL: false)
         components?.queryItems = [

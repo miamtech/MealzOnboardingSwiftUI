@@ -8,6 +8,17 @@
 import Foundation
 
 class UserSession: ObservableObject {
-    @Published var email: String?
+    @Published var user: PretendUser?
     @Published var selectedStore: PretendStore?
+    
+    let userRepository = PretendUserRepository()
+    
+    init() {
+        self.user = userRepository.getStoredUser()
+    }
+    
+    func disconnectUser() {
+        user = nil
+        userRepository.deleteStoredUser()
+    }
 }
