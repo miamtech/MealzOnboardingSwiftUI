@@ -31,7 +31,8 @@ class PretendProductRepository {
                         name: $0.attributes.name,
                         quantity: 0,
                         price: Double($0.attributes.unitPrice),
-                        imageUrl: $0.attributes.image
+                        imageUrl: $0.attributes.image,
+                        ean: $0.attributes.ean
                     )
                 }
                 completion(.success(stores))

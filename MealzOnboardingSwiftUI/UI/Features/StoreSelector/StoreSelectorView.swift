@@ -30,8 +30,9 @@ struct StoreSelectorView: View {
         var body: some View {
             Button(action: selectStore, label: {
                 HStack {
-                    Image(systemName: "store")
+                    Image(systemName: "storefront")
                     Text(store.name.capitalized)
+                    Spacer()
                 }
                 .frame(maxWidth: .infinity)
                 .padding()

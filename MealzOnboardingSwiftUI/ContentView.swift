@@ -10,18 +10,25 @@ import SwiftUI
 struct ContentView: View {
     @SwiftUI.State private var selectedTab = 0
     @StateObject var userSession = UserSession()
+    @StateObject var basket = PretendBasket(items: [])
+    
     var body: some View {
         TabView(selection: $selectedTab) {
             HomePageView()
-                .tabItem { Label("Home", systemImage: "book.fill") }
+                .tabItem { Label("Home", systemImage: "house") }
                 .tag(0)
             StoreSelectorView()
-                .tabItem { Label("Store", systemImage: "book.fill") }
+                .tabItem { Label("Store", systemImage: "storefront") }
                 .tag(1)
             ProductSearchView()
-                .tabItem { Label("Search", systemImage: "book.fill") }
+                .tabItem { Label("Search", systemImage: "magnifyingglass") }
                 .tag(2)
-        }.environmentObject(userSession)
+            BasketView()
+                .tabItem { Label("Basket", systemImage: "basket") }
+                .tag(3)
+        }
+        .environmentObject(userSession)
+        .environmentObject(basket)
     }
 }
 

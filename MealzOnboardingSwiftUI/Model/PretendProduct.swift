@@ -14,6 +14,7 @@ public class PretendProduct: Identifiable, Codable, Hashable {
     public var price: Double?
     public var identifier: String?
     public var imageUrl: String?
+    public var ean: String?
     
     init(
         id: String,
@@ -21,7 +22,8 @@ public class PretendProduct: Identifiable, Codable, Hashable {
         quantity: Int,
         price: Double? = nil,
         identifier: String? = nil,
-        imageUrl: String? = nil
+        imageUrl: String? = nil,
+        ean: String? = nil
     ) {
         self.id = id
         self.name = name
@@ -29,6 +31,7 @@ public class PretendProduct: Identifiable, Codable, Hashable {
         self.price = price
         self.identifier = identifier
         self.imageUrl = imageUrl
+        self.ean = ean
     }
     
     public static func == (lhs: PretendProduct, rhs: PretendProduct) -> Bool {

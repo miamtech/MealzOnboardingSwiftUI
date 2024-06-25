@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ProductSearchView: View {
     @EnvironmentObject var userSession: UserSession
+    @EnvironmentObject var basket: PretendBasket
     
     var body: some View {
         if let currentStore = userSession.selectedStore {
@@ -19,6 +20,7 @@ struct ProductSearchView: View {
     }
     
     struct SearchAndResults: View {
+        @EnvironmentObject var basket: PretendBasket
         @StateObject var viewModel = ProductSearchViewModel()
         @State var searchText: String = ""
         var currentStore: PretendStore
@@ -30,8 +32,18 @@ struct ProductSearchView: View {
                     }).onChange(of: searchText, {
                         if searchText.count > 3 { viewModel.startSearch(currentStore: currentStore, keyword: searchText) }
                     })
-                    ForEach(viewModel.products) { product in
-                        Text("\(product.name)-\(product.id)")
+                    .padding()
+                    if viewModel.products.count > 0 {
+                        ForEach(viewModel.products) { product in
+                            let thisProduct = basket.items.first(where: { it in it.id == product.id }) ?? product
+                            ProductCard(product: thisProduct, updateQuantity: { newQuantity in
+                                basket.updateQuantity(product: thisProduct, newQuantity: newQuantity)
+                            })
+                        }
+                    } else {
+                        Spacer()
+                        Text("Search for a product")
+                        Spacer()
                     }
                 }
             }

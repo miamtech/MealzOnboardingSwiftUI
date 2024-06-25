@@ -64,9 +64,10 @@ struct ProductAttributes: Codable {
     let name: String
     let image: String?
     let unitPrice: String
+    let ean: String
     
     enum CodingKeys: String, CodingKey {
-        case name, image
+        case name, image, ean
         case unitPrice = "unit-price"
     }
 }
