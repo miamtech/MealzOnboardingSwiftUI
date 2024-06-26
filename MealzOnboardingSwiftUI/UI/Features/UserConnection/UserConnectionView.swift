@@ -19,7 +19,7 @@ struct UserConnectionView: View {
     func handleResponseFromVM(result: Result<PretendUser, Error>) {
         switch result {
         case .success(let user):
-            userSession.user = user
+            userSession.setUser(user: user)
         case .failure(let error):
             self.error = error.localizedDescription
         }
