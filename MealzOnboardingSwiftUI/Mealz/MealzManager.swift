@@ -24,6 +24,7 @@ public class MealzManager {
             coreBuilder.sdkRequirement(init: { requirementBuilder in
                 requirementBuilder.key = self.supplierKey
             })
+            // TODO: c. Add Subscriptions
         })
     }
     
@@ -36,4 +37,15 @@ public class MealzManager {
     func updateUserId(userId: String) {
         Mealz.shared.user.updateUserId(userId: userId, authorization: Authorization.userId)
     }
+    
+    // TODO: 4. Set Basket Synchro
+    
+    // TODO: 4a. Create conversion method between your Product class & Mealz SupplierProduct
+    
+    // TODO: 4b. Create Class that implements BasketPublisher, BasketSubscriber
+    // TODO: 4b1. Implement init with initialvalue
+    // TODO: 4b2. Implement onBasketUpdate
+    // TODO: 4b1. Implement receive
+    
+    // TODO: 4d. Handle Payment
 }
