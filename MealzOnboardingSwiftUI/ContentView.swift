@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @SwiftUI.State private var selectedTab = 0
     @StateObject var userSession = UserSession()
-    @StateObject var basket = PretendBasket(items: [])
+    @StateObject var basket = PretendBasket.shared
     
     var body: some View {
         VStack {

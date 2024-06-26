@@ -8,9 +8,11 @@
 import Foundation
 
 class PretendBasket: ObservableObject {
+    static let shared = PretendBasket(items: [])
+    
     @Published var items = [PretendProduct]()
 
-    init(items: [PretendProduct]) {
+    private init(items: [PretendProduct]) {
         self.items = items
     }
     
