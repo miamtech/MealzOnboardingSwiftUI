@@ -24,12 +24,14 @@ class UserSession: ObservableObject {
     }
     
     func setUser(user: PretendUser) {
-        // TODO e. Call Mealz Function
+        // TODO 3e. Call Mealz Function
         self.user = user
+        MealzManager.sharedInstance.updateUserId(userId: user.id)
     }
     
     func setStore(store: PretendStore) {
-        // TODO f. Call Mealz Function
+        // TODO 3f. Call Mealz Function
         self.selectedStore = store
+        MealzManager.sharedInstance.updateStoreId(storeId: store.id)
     }
 }
