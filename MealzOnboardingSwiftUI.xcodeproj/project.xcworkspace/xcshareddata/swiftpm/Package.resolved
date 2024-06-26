@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "mealzcorerelease",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/miamtech/MealzCoreRelease",
+      "state" : {
+        "revision" : "ea75469a2fd4a4272cf50ac6200cda6bd3d0cbe8",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "mealziossdkrelease",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/miamtech/MealziOSSDKRelease",
+      "state" : {
+        "revision" : "d60e6aa96b2df4251dfe1a526df3f79b336798fa",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "mealznaviossdkrelease",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/miamtech/MealzNaviOSSDKRelease",
+      "state" : {
+        "revision" : "c52cd23fae106d5cd39cc42a764c169734fc4b5f",
+        "version" : "1.0.10"
+      }
+    },
+    {
+      "identity" : "mealzuiiossdkrelease",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/miamtech/MealzUIiOSSDKRelease",
+      "state" : {
+        "revision" : "7b7b77364cc02d4b2105ffc1f3c0b2b9f85c72b1",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
