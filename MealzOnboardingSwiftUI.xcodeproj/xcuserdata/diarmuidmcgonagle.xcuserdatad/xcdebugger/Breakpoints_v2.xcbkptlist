@@ -246,54 +246,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "03CC6B82-7240-4085-A7FB-7DD3FECBFF48"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MealzOnboardingSwiftUI/UI/Features/HomePage/HomePageView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "03CC6B82-7240-4085-A7FB-7DD3FECBFF48 - 2e28fe81e0136f2a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (MealzOnboardingSwiftUI.PretendProduct) -&gt; MealzOnboardingSwiftUI.ProductCard in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;MealzOnboardingSwiftUI.PretendProduct&gt;, Swift.String, MealzOnboardingSwiftUI.ProductCard&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;MealzOnboardingSwiftUI.PretendProduct&gt;, Swift.String, MealzOnboardingSwiftUI.ProductCard&gt;&gt; in MealzOnboardingSwiftUI.HomePageView.DefaultProducts.body.getter : some"
-                  moduleName = "MealzOnboardingSwiftUI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/UI/Features/HomePage/HomePageView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "140">
-               </Location>
-               <Location
-                  uuid = "03CC6B82-7240-4085-A7FB-7DD3FECBFF48 - a3153863b8f5465f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (MealzOnboardingSwiftUI.PretendProduct) -&gt; Swift.Bool in closure #1 (MealzOnboardingSwiftUI.PretendProduct) -&gt; MealzOnboardingSwiftUI.ProductCard in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;MealzOnboardingSwiftUI.PretendProduct&gt;, Swift.String, MealzOnboardingSwiftUI.ProductCard&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;MealzOnboardingSwiftUI.PretendProduct&gt;, Swift.String, MealzOnboardingSwiftUI.ProductCard&gt;&gt; in MealzOnboardingSwiftUI.HomePageView.DefaultProducts.body.getter : some"
-                  moduleName = "MealzOnboardingSwiftUI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/UI/Features/HomePage/HomePageView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2DADA263-7DDD-46DE-B6FB-501A56C87D78"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -369,22 +321,6 @@
             endingLineNumber = "12"
             landmarkName = "PretendBasket"
             landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "40DC9869-98CB-40B0-A774-1A22BE403E89"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MealzOnboardingSwiftUI/MealzOnboardingSwiftUIApp.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "unknown"
-            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
