@@ -24,10 +24,12 @@ class UserSession: ObservableObject {
     }
     
     func setUser(user: PretendUser) {
+        // TODO e. Call Mealz Function
         self.user = user
     }
     
     func setStore(store: PretendStore) {
+        // TODO f. Call Mealz Function
         self.selectedStore = store
     }
 }
