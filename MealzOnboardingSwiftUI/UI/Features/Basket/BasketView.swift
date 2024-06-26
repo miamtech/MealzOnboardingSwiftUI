@@ -31,6 +31,8 @@ struct BasketView: View {
                         }
                     }
                 }
+                Button(action: { basket.checkout() }, label: {Text("Checkout").frame(maxWidth: .infinity)})
+                    .padding()                    
             } else {
                 Text("Add items to your basket!")
                 Spacer()

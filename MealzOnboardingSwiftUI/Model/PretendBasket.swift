@@ -60,4 +60,9 @@ class PretendBasket: ObservableObject {
         
         return formatter.string(from: NSNumber(value: totalPrice())) ?? "\(currencyCode) 0.00"
     }
+    
+    func checkout() {
+        // take money
+        removeAll()
+    }
 }
