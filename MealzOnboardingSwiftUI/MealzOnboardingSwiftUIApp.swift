@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+// TODO: 1. Import Mealz Repositories
+// import mealzcore
+// import MealziOSSDK
+
 @main
 struct MealzOnboardingSwiftUIApp: App {
     var body: some Scene {
