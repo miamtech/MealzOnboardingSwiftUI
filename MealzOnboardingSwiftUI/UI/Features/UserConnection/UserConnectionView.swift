@@ -65,7 +65,7 @@ struct UserConnectionView: View {
                         .frame(maxWidth: .infinity)
                 })
                 .padding()
-                .background(Color.yellow)
+                .background(Color.cyan)
                 Button(action: { signInTab = true }, label: {
                     Text("Sign In")
                         .frame(maxWidth: .infinity)
@@ -113,7 +113,7 @@ struct UserConnectionView: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .padding()
-            .background(Color.yellow)
+            .background(Color.cyan)
         }
     }
 }

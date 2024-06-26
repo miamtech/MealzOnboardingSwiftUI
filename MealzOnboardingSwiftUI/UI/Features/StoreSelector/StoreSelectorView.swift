@@ -36,7 +36,7 @@ struct StoreSelectorView: View {
                 }
                 .frame(maxWidth: .infinity)
                 .padding()
-                .background(currentlySelected ? Color.green : Color.clear)
+                .background(currentlySelected ? Color.cyan : Color.clear)
             })
         }
     }

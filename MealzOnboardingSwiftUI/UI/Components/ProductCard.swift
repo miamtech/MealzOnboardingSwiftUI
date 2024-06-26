@@ -47,7 +47,7 @@ struct ProductCard: View {
         }
         .frame(maxWidth: .infinity)
         .padding()
-        .background(productQuantity > 0 ? Color.green : Color.clear)
+        .background(productQuantity > 0 ? Color.cyan : Color.clear)
         .onChange(of: basket.items, updateProductQuantity)
         .onAppear(perform: updateProductQuantity)
     }
