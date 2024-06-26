@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import mealzcore
+import MealziOSSDK
 
 struct HomePageView: View {
     @EnvironmentObject var userSession: UserSession
@@ -32,12 +34,7 @@ struct HomePageView: View {
     }
     
     // TODO: 5. Add Recipe Cards in View
-    
-    // TODO: 5a. Embed Recipe Card With Recipe Id to show
-    // TODO: 5b. Create Rule to show Recipe Cards
-    // TODO: 5c. Create Suggestions Criteria based on other products
-    // TODO: 5d. Add StandaloneRecipeCard when Rule true
-    
+
     struct DefaultProducts: View {
         @EnvironmentObject var basket: PretendBasket
         @ObservedObject var viewModel: HomePageViewModel
@@ -45,11 +42,29 @@ struct HomePageView: View {
         init(viewModel: HomePageViewModel) {
             self.viewModel = viewModel
         }
+        
+        // TODO: 5c. Create Suggestions Criteria based on other products
+        struct InjectedMealzRecipeCard: View {
+            let eans: [String]
+            var body: some View {
+                let suggestionsCriteria = SuggestionsCriteria(shelfIngredientsIds: eans, currentIngredientsIds: nil, basketIngredientsIds: nil, groupId: nil)
+                return MealzStandaloneRecipeCardSwiftUI(criteria: suggestionsCriteria)
+            }
+        }
+        
         var body: some View {
             ScrollView {
                 VStack {
-                    ForEach(viewModel.products) { product in
+                    // TODO: 5a. Embed Recipe Card With Recipe Id to show
+//                    MealzStandaloneRecipeCardSwiftUI(recipeId: "15434")
+                    
+                    ForEach(Array(viewModel.products.enumerated()), id: \.element.id) { index, product in
                         let thisProduct = basket.items.first(where: { it in it.id == product.id }) ?? product
+                        
+                        // TODO: 5d. Add StandaloneRecipeCard when Rule true
+                        if viewModel.determineIfMealzCardShouldBeShown(index: index, currentEan: thisProduct.ean) {
+                            InjectedMealzRecipeCard(eans: viewModel.productEans)
+                        }
                         ProductCard(product: thisProduct, updateQuantity: { newQuantity in
                             basket.updateQuantity(product: thisProduct, newQuantity: newQuantity)
                         })
