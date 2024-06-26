@@ -16,7 +16,7 @@ struct StoreSelectorView: View {
                 Text("Choose your store")
                 ForEach(viewModel.stores) { store in
                     Store(store: store, currentlySelected: userSession.selectedStore == store) {
-                        userSession.selectedStore = store
+                        userSession.setStore(store: store)
                     }
                 }
             }

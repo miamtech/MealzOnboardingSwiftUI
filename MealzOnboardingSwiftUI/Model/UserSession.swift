@@ -21,4 +21,12 @@ class UserSession: ObservableObject {
         user = nil
         userRepository.deleteStoredUser()
     }
+    
+    func setUser(user: PretendUser) {
+        self.user = user
+    }
+    
+    func setStore(store: PretendStore) {
+        self.selectedStore = store
+    }
 }
