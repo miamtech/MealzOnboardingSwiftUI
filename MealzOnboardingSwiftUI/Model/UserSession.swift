@@ -14,7 +14,8 @@ class UserSession: ObservableObject {
     let userRepository = PretendUserRepository()
     
     init() {
-        self.user = userRepository.getStoredUser()
+        if let user = userRepository.getStoredUser() { setUser(user: user) }
+        if let selectedStore { setStore(store: selectedStore) }
     }
     
     func disconnectUser() {
