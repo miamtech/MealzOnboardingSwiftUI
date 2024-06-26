@@ -1,0 +1,24 @@
+{
+  "originHash" : "117f17f784d2ef8dc160adab452bb9639b9a5703a3f0679f11d1724c5493c1df",
+  "pins" : [
+    {
+      "identity" : "mealzcorerelease",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/miamtech/MealzCoreRelease",
+      "state" : {
+        "revision" : "fcf26d8834c2048dfba2f934b35d9a0a17e5c717",
+        "version" : "5.1.1"
+      }
+    },
+    {
+      "identity" : "mealziossdkrelease",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/miamtech/MealziOSSDKRelease",
+      "state" : {
+        "revision" : "1f687b829d754360ac25b0489de1119b5c3df844",
+        "version" : "5.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}

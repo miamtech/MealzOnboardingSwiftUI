@@ -19,6 +19,8 @@
 		2691B3322C2B16C1008C84FD /* UserConnectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691B3312C2B16C1008C84FD /* UserConnectionViewModel.swift */; };
 		2691B3342C2B1F03008C84FD /* PretendUserLocalDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691B3332C2B1F03008C84FD /* PretendUserLocalDS.swift */; };
 		2691B3362C2B1F5A008C84FD /* PretendUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691B3352C2B1F5A008C84FD /* PretendUserRepository.swift */; };
+		2691B3452C2C08D1008C84FD /* MealzCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2691B3442C2C08D1008C84FD /* MealzCore */; };
+		2691B3482C2C08D9008C84FD /* MealziOSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2691B3472C2C08D9008C84FD /* MealziOSSDK */; };
 		26AE00002C2ACAE300367DA6 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFFF2C2ACAE300367DA6 /* HomePageView.swift */; };
 		26AE00022C2ACAF400367DA6 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE00012C2ACAF400367DA6 /* HomePageViewModel.swift */; };
 		26AEFFDA2C2AB44400367DA6 /* MealzOnboardingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFD92C2AB44400367DA6 /* MealzOnboardingSwiftUIApp.swift */; };
@@ -72,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2691B3452C2C08D1008C84FD /* MealzCore in Frameworks */,
+				2691B3482C2C08D9008C84FD /* MealziOSSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +252,10 @@
 			dependencies = (
 			);
 			name = MealzOnboardingSwiftUI;
+			packageProductDependencies = (
+				2691B3442C2C08D1008C84FD /* MealzCore */,
+				2691B3472C2C08D9008C84FD /* MealziOSSDK */,
+			);
 			productName = MealzOnboardingSwiftUI;
 			productReference = 26AEFFD62C2AB44400367DA6 /* MealzOnboardingSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -276,6 +284,10 @@
 				Base,
 			);
 			mainGroup = 26AEFFCD2C2AB44400367DA6;
+			packageReferences = (
+				2691B3432C2C08D1008C84FD /* XCRemoteSwiftPackageReference "MealzCoreRelease" */,
+				2691B3462C2C08D9008C84FD /* XCRemoteSwiftPackageReference "MealziOSSDKRelease" */,
+			);
 			productRefGroup = 26AEFFD72C2AB44400367DA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -532,6 +544,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2691B3432C2C08D1008C84FD /* XCRemoteSwiftPackageReference "MealzCoreRelease" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/miamtech/MealzCoreRelease";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		2691B3462C2C08D9008C84FD /* XCRemoteSwiftPackageReference "MealziOSSDKRelease" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/miamtech/MealziOSSDKRelease";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2691B3442C2C08D1008C84FD /* MealzCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2691B3432C2C08D1008C84FD /* XCRemoteSwiftPackageReference "MealzCoreRelease" */;
+			productName = MealzCore;
+		};
+		2691B3472C2C08D9008C84FD /* MealziOSSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2691B3462C2C08D9008C84FD /* XCRemoteSwiftPackageReference "MealziOSSDKRelease" */;
+			productName = MealziOSSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 26AEFFCE2C2AB44400367DA6 /* Project object */;
 }
