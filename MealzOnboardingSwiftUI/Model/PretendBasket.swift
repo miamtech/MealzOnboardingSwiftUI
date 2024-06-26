@@ -64,5 +64,6 @@ class PretendBasket: ObservableObject {
     func checkout() {
         // take money
         removeAll()
+        MealzManager.sharedInstance.handlePayment(totalPrice: totalPrice())
     }
 }
