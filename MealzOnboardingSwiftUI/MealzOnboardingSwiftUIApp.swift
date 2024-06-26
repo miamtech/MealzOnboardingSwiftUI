@@ -21,3 +21,5 @@ struct MealzOnboardingSwiftUIApp: App {
         }
     }
 }
+
+// TODO: 2. Create MealzManager file
