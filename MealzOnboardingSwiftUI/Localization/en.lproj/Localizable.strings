@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  MealzOnboardingSwiftUI
+
+  Created by Diarmuid McGonagle on 28/06/2024.
+  
+*/
+
+// TODO: 7c. Create Localization File and add text
+"com_miam_details_add_all_products" = "Test";
