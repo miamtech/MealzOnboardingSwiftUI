@@ -22,6 +22,8 @@
 		2691B3452C2C08D1008C84FD /* MealzCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2691B3442C2C08D1008C84FD /* MealzCore */; };
 		2691B3482C2C08D9008C84FD /* MealziOSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2691B3472C2C08D9008C84FD /* MealziOSSDK */; };
 		2691B3512C2C099B008C84FD /* MealzManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691B3502C2C099B008C84FD /* MealzManager.swift */; };
+		269588C72C2EDCAE0020A2B4 /* MealzViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269588C62C2EDCAE0020A2B4 /* MealzViewConfig.swift */; };
+		269588CB2C2EED510020A2B4 /* CustomRecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269588CA2C2EED510020A2B4 /* CustomRecipeCard.swift */; };
 		26AE00002C2ACAE300367DA6 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFFF2C2ACAE300367DA6 /* HomePageView.swift */; };
 		26AE00022C2ACAF400367DA6 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE00012C2ACAF400367DA6 /* HomePageViewModel.swift */; };
 		26AEFFDA2C2AB44400367DA6 /* MealzOnboardingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFD92C2AB44400367DA6 /* MealzOnboardingSwiftUIApp.swift */; };
@@ -53,6 +55,8 @@
 		2691B3332C2B1F03008C84FD /* PretendUserLocalDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendUserLocalDS.swift; sourceTree = "<group>"; };
 		2691B3352C2B1F5A008C84FD /* PretendUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendUserRepository.swift; sourceTree = "<group>"; };
 		2691B3502C2C099B008C84FD /* MealzManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealzManager.swift; sourceTree = "<group>"; };
+		269588C62C2EDCAE0020A2B4 /* MealzViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealzViewConfig.swift; sourceTree = "<group>"; };
+		269588CA2C2EED510020A2B4 /* CustomRecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRecipeCard.swift; sourceTree = "<group>"; };
 		26AE00012C2ACAF400367DA6 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
 		26AEFFD62C2AB44400367DA6 /* MealzOnboardingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealzOnboardingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AEFFD92C2AB44400367DA6 /* MealzOnboardingSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealzOnboardingSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -152,9 +156,19 @@
 		2691B34F2C2C0990008C84FD /* Mealz */ = {
 			isa = PBXGroup;
 			children = (
+				269588C92C2EED420020A2B4 /* Views */,
 				2691B3502C2C099B008C84FD /* MealzManager.swift */,
+				269588C62C2EDCAE0020A2B4 /* MealzViewConfig.swift */,
 			);
 			path = Mealz;
+			sourceTree = "<group>";
+		};
+		269588C92C2EED420020A2B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				269588CA2C2EED510020A2B4 /* CustomRecipeCard.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		26AEFFCD2C2AB44400367DA6 = {
@@ -346,10 +360,12 @@
 				26AEFFF82C2ABCCC00367DA6 /* PretendStoreRepository.swift in Sources */,
 				2691B3362C2B1F5A008C84FD /* PretendUserRepository.swift in Sources */,
 				26AEFFF52C2ABAF400367DA6 /* PretendStoreRemoteDS.swift in Sources */,
+				269588C72C2EDCAE0020A2B4 /* MealzViewConfig.swift in Sources */,
 				2691B3322C2B16C1008C84FD /* UserConnectionViewModel.swift in Sources */,
 				2691B3252C2AE321008C84FD /* UserSession.swift in Sources */,
 				26AEFFEE2C2AB5CF00367DA6 /* PretendStore.swift in Sources */,
 				2691B3282C2AEDAD008C84FD /* ProductCard.swift in Sources */,
+				269588CB2C2EED510020A2B4 /* CustomRecipeCard.swift in Sources */,
 				26AEFFEA2C2AB4AF00367DA6 /* PretendProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
