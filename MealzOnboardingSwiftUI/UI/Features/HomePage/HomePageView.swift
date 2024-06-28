@@ -49,7 +49,8 @@ struct HomePageView: View {
             var body: some View {
                 let suggestionsCriteria = SuggestionsCriteria(shelfIngredientsIds: eans, currentIngredientsIds: nil, basketIngredientsIds: nil, groupId: nil)
                 // TODO: 6f. Pass config into Standalone Recipe Details
-                return MealzStandaloneRecipeCardSwiftUI(criteria: suggestionsCriteria, recipeCardConstructor: MealzViewConfig.recipeCardConfig)
+//                return MealzStandaloneRecipeCardSwiftUI(criteria: suggestionsCriteria, recipeCardConstructor: MealzViewConfig.recipeCardConfig)
+                return MealzStandaloneRecipeCardSwiftUI(criteria: suggestionsCriteria)
             }
         }
         
