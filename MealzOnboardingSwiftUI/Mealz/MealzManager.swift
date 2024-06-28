@@ -12,8 +12,6 @@ import mealzcore
 // TODO: 7. Change Colors, icons, and Localization
 // TODO: 7a. Add Mealz Primary Color
 // TODO: 7b. Add Mealz Icon
-// TODO: 7c. Create Localization File and add text
-// TODO: 7d: Register App Bundle
 
 public class MealzManager {
     // Will contain calls to Miam SDK core class for modules (User, Basket, Store...)
@@ -44,6 +42,8 @@ public class MealzManager {
                 })
             })
         })
+        // TODO: 7d: Register App Bundle
+        I18nResolver.shared.registerAppBundle(bundle: Bundle.main)
     }
     
     // TODO 3c. Create function to set the Store
