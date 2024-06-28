@@ -78,3 +78,11 @@ struct HomePageView: View {
 #Preview {
     HomePageView()
 }
+
+// TODO: 6. Create Custom Recipe Card
+// TODO: 6a. Create Mealz Config File & Struct
+// TODO: 6b. Create new file to host Recipe Card with boilerplate
+// TODO: 6c. Add code for new Recipe Card
+// TODO: 6d. Add Recipe Card Options to Config
+// TODO: 6e. Add new Recipe Card to Config
+// TODO: 6f. Pass config into Standalone Recipe Details
