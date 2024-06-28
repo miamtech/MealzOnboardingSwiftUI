@@ -31,7 +31,7 @@ class UserSession: ObservableObject {
     
     func setStore(store: PretendStore) {
         // TODO 3f. Call Mealz Function
-        self.selectedStore = store
         MealzManager.sharedInstance.updateStoreId(storeId: store.id)
+        self.selectedStore = store
     }
 }
