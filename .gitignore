@@ -1,4 +1,36 @@
-MealzOnboardingSwiftUI.xcodeproj/xcuserdata/diarmuidmcgonagle.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
-MealzOnboardingSwiftUI.xcodeproj/project.xcworkspace/xcuserdata/diarmuidmcgonagle.xcuserdatad/UserInterfaceState.xcuserstate
+# Xcode specific
+*.xcuserdatad
+*.xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+!default.mode1v3
+!default.mode2v3
 
+# macOS specific
 .DS_Store
+*.swp
+*.lock
+
+# Swift Package Manager
+/.build/
+Packages
+.swiftpm/xcode/package.pins
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Cocoapods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
