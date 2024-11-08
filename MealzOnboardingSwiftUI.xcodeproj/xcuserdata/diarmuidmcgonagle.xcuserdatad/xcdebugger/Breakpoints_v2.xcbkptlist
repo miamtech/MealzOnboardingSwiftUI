@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "51487E30-4700-40B0-BAA4-14A4D63C232A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02DD9954-8162-42BD-99A8-B8748B2AAAED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "updateQuantity(product:newQuantity:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "02DD9954-8162-42BD-99A8-B8748B2AAAED - a4a29bb7646c4e7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29">
+               </Location>
+               <Location
+                  uuid = "02DD9954-8162-42BD-99A8-B8748B2AAAED - a4a29bb7646c4e1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "02DD9954-8162-42BD-99A8-B8748B2AAAED - a4a29bb7646c4e7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9E2FB6E-BFCF-4D8E-82AF-E0809E2C1155"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "updateQuantity(product:newQuantity:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A9E2FB6E-BFCF-4D8E-82AF-E0809E2C1155 - a4a29bb7646c4e5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30">
+               </Location>
+               <Location
+                  uuid = "A9E2FB6E-BFCF-4D8E-82AF-E0809E2C1155 - 8b29eb1a3eb21ff2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MealzOnboardingSwiftUI.PretendProduct) -&gt; Swift.Bool in MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30">
+               </Location>
+               <Location
+                  uuid = "A9E2FB6E-BFCF-4D8E-82AF-E0809E2C1155 - a4a29bb7646c4e5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30">
+               </Location>
+               <Location
+                  uuid = "A9E2FB6E-BFCF-4D8E-82AF-E0809E2C1155 - a4a29bb7646c4ebf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4201B8E2-38A7-4B93-8C65-28AE95017631"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "updateQuantity(product:newQuantity:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D48086E-6477-4D75-8CD3-66800C9F6D1D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "updateQuantity(product:newQuantity:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5ED629C9-A291-4DDA-A669-94C7E7796E60"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "updateQuantity(product:newQuantity:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5ED629C9-A291-4DDA-A669-94C7E7796E60 - a4a29bb7646c4ed2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34">
+               </Location>
+               <Location
+                  uuid = "5ED629C9-A291-4DDA-A669-94C7E7796E60 - a4a29bb7646c4ed2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34">
+               </Location>
+               <Location
+                  uuid = "5ED629C9-A291-4DDA-A669-94C7E7796E60 - a4a29bb7646c4ed2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66A34932-9607-4D20-8C87-034FB9E1A138"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "updateQuantity(product:newQuantity:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "66A34932-9607-4D20-8C87-034FB9E1A138 - a4a29bb7646c4e90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+               <Location
+                  uuid = "66A34932-9607-4D20-8C87-034FB9E1A138 - a4a29bb7646c4e90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+               <Location
+                  uuid = "66A34932-9607-4D20-8C87-034FB9E1A138 - a4a29bb7646c4e90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+               <Location
+                  uuid = "66A34932-9607-4D20-8C87-034FB9E1A138 - 8b29eb1a3eb21f3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MealzOnboardingSwiftUI.PretendProduct) -&gt; Swift.Bool in MealzOnboardingSwiftUI.PretendBasket.updateQuantity(product: MealzOnboardingSwiftUI.PretendProduct, newQuantity: Swift.Int) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DADA263-7DDD-46DE-B6FB-501A56C87D78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealzOnboardingSwiftUI/Repository/PretendProductRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getProducts(currentStore:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2DADA263-7DDD-46DE-B6FB-501A56C87D78 - b10445baa4d4ba9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;MealzOnboardingSwiftUI.APIResponseProduct, Swift.Error&gt;) -&gt; () in MealzOnboardingSwiftUI.PretendProductRepository.getProducts(currentStore: MealzOnboardingSwiftUI.PretendStore, completion: (Swift.Result&lt;Swift.Array&lt;MealzOnboardingSwiftUI.PretendProduct&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Repository/PretendProductRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "2DADA263-7DDD-46DE-B6FB-501A56C87D78 - 111e7520a7a01a52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MealzOnboardingSwiftUI.ProductData) -&gt; MealzOnboardingSwiftUI.PretendProduct in closure #1 (Swift.Result&lt;MealzOnboardingSwiftUI.APIResponseProduct, Swift.Error&gt;) -&gt; () in MealzOnboardingSwiftUI.PretendProductRepository.getProducts(currentStore: MealzOnboardingSwiftUI.PretendStore, completion: (Swift.Result&lt;Swift.Array&lt;MealzOnboardingSwiftUI.PretendProduct&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MealzOnboardingSwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diarmuidmcgonagle/sources/mealz/Onboarding/MealzOnboardingSwiftUI/MealzOnboardingSwiftUI/Repository/PretendProductRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78B56985-EAF1-4BFC-B616-5DA392F927C3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealzOnboardingSwiftUI/Repository/PretendProductRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getProducts(currentStore:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A05A0BB-AA65-46BE-83C0-B4B198220564"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MealzOnboardingSwiftUI/Model/PretendBasket.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "PretendBasket"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
