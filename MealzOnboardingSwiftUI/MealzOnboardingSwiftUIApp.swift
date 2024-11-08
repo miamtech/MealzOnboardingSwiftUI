@@ -8,8 +8,8 @@
 import SwiftUI
 
 // TODO: 1. Import Mealz Repositories
-// import mealzcore
-// import MealziOSSDK
+import mealzcore
+import MealziOSSDK
 
 @main
 struct MealzOnboardingSwiftUIApp: App {
