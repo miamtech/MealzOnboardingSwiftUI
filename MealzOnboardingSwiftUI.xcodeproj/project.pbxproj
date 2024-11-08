@@ -21,6 +21,7 @@
 		2691B3362C2B1F5A008C84FD /* PretendUserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691B3352C2B1F5A008C84FD /* PretendUserRepository.swift */; };
 		2691B3452C2C08D1008C84FD /* MealzCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2691B3442C2C08D1008C84FD /* MealzCore */; };
 		2691B3482C2C08D9008C84FD /* MealziOSSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2691B3472C2C08D9008C84FD /* MealziOSSDK */; };
+		2691B3512C2C099B008C84FD /* MealzManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691B3502C2C099B008C84FD /* MealzManager.swift */; };
 		26AE00002C2ACAE300367DA6 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFFF2C2ACAE300367DA6 /* HomePageView.swift */; };
 		26AE00022C2ACAF400367DA6 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE00012C2ACAF400367DA6 /* HomePageViewModel.swift */; };
 		26AEFFDA2C2AB44400367DA6 /* MealzOnboardingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFFD92C2AB44400367DA6 /* MealzOnboardingSwiftUIApp.swift */; };
@@ -51,6 +52,7 @@
 		2691B3312C2B16C1008C84FD /* UserConnectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserConnectionViewModel.swift; sourceTree = "<group>"; };
 		2691B3332C2B1F03008C84FD /* PretendUserLocalDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendUserLocalDS.swift; sourceTree = "<group>"; };
 		2691B3352C2B1F5A008C84FD /* PretendUserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretendUserRepository.swift; sourceTree = "<group>"; };
+		2691B3502C2C099B008C84FD /* MealzManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealzManager.swift; sourceTree = "<group>"; };
 		26AE00012C2ACAF400367DA6 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
 		26AEFFD62C2AB44400367DA6 /* MealzOnboardingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealzOnboardingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AEFFD92C2AB44400367DA6 /* MealzOnboardingSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealzOnboardingSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -147,6 +149,14 @@
 			path = UserConnection;
 			sourceTree = "<group>";
 		};
+		2691B34F2C2C0990008C84FD /* Mealz */ = {
+			isa = PBXGroup;
+			children = (
+				2691B3502C2C099B008C84FD /* MealzManager.swift */,
+			);
+			path = Mealz;
+			sourceTree = "<group>";
+		};
 		26AEFFCD2C2AB44400367DA6 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +176,7 @@
 		26AEFFD82C2AB44400367DA6 /* MealzOnboardingSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				2691B34F2C2C0990008C84FD /* Mealz */,
 				26AEFFFE2C2ACAB800367DA6 /* UI */,
 				26AEFFF92C2ABE4200367DA6 /* Utils */,
 				26AEFFF62C2ABCB900367DA6 /* Repository */,
@@ -317,6 +328,7 @@
 				2691B32A2C2AEE75008C84FD /* AsyncImage.swift in Sources */,
 				26AEFFDC2C2AB44400367DA6 /* ContentView.swift in Sources */,
 				26AEFFF32C2AB6D000367DA6 /* PretendProductRemoteDS.swift in Sources */,
+				2691B3512C2C099B008C84FD /* MealzManager.swift in Sources */,
 				26AEFFFB2C2ABE4B00367DA6 /* Constants.swift in Sources */,
 				2691B31B2C2ACD7B008C84FD /* StoreSelectorViewModel.swift in Sources */,
 				26AEFFF02C2AB64A00367DA6 /* PretendUser.swift in Sources */,
