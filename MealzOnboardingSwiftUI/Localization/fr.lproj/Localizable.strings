@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  MealzOnboardingSwiftUI
+
+  Created by Diarmuid McGonagle on 28/06/2024.
+  
+*/
+
+"com_miam_i18n_recipe_add" = "Add recipe to basket";
+"com_miam_details_add_all_products" = "huh";
